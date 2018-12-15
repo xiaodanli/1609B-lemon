@@ -1,0 +1,71 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background: yellow; }
+  .header .header-t {
+    text-align: center;
+    height: 44px; }
+    .header .header-t .mui-icon-back {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 44px;
+      height: 44px;
+      text-align: center;
+      line-height: 44px; }
+  .header .ipt-money {
+    margin: 0 15px;
+    box-sizing: border-box;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid gray;
+    text-align: center; }
+    .header .ipt-money span {
+      border-right: 1px solid gray;
+      font-size: 18px; }
+
+.tab-list {
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 10px; }
+  .tab-list span {
+    font-size: 12px;
+    padding: 10px; }
+    .tab-list span.active {
+      background: #000;
+      color: yellow; }
+
+.select-time {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 15px;
+  color: gray;
+  background: #fff;
+  font-size: 12px; }
+
+.keyword {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+  .keyword ul {
+    width: 100%;
+    display: flex;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray; }
+    .keyword ul li {
+      width: 25%; }
+      .keyword ul li span {
+        width: 100%;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+        border-right: 1px solid gray;
+        border-bottom: 1px solid gray;
+        display: block; }
+      .keyword ul li:last-child span {
+        height: 176px;
+        line-height: 176px; }

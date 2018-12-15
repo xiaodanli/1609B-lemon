@@ -1,0 +1,47 @@
+.y-bg {
+  padding: 6px;
+  background: yellow;
+  border-radius: 50%; }
+
+.icon-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .icon-list li {
+    width: 25%; }
+    .icon-list li span {
+      width: 40px;
+      height: 40px;
+      margin: 10px auto;
+      border-radius: 50%;
+      background: yellow;
+      text-align: center;
+      line-height: 40px;
+      display: block; }
+
+.c_name {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid gray; }
+  .c_name .mui-icon {
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px; }
+  .c_name input {
+    flex: 1;
+    border: none;
+    text-align: right;
+    margin-bottom: 0; }
+
+.save-btn {
+  width: 70%;
+  height: 30px;
+  background: yellow;
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -35%; }

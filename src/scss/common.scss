@@ -1,0 +1,58 @@
+body,.mui-content{
+	background: #fff;
+}
+
+.none{
+	display: none;
+}
+
+.red{
+	color:red;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+ol li,ul li{
+	list-style: none;
+}
+
+.green{
+	color:green;
+}
+
+.gray{
+	color:gray;
+}
+
+
+.swiper{
+	width:100%;
+	display: flex;
+	flex-wrap: wrap;
+	background: #fff;
+	dl{
+		width:25%;
+		&.active{
+			dt{
+				background: yellow;
+			}
+		}
+		dt{
+			width:40px;
+			height: 40px;
+			background: gray;
+			border-radius: 50%;
+			font-size:14px;
+			text-align: center;
+			line-height: 40px;
+			margin:10px auto;
+		}
+		dd{
+			text-align: center;
+			margin-top:4px;
+			font-size:12px;
+		}
+	}
+}

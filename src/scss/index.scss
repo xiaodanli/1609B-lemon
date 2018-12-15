@@ -1,0 +1,186 @@
+.mui-inner-wrap{
+	display: flex;
+	flex-direction: column;
+	.header{
+		width:100%;
+		height: 100px;
+		background: yellow;
+		.total{
+			font-size:12px;
+			padding:10px;
+			.pay-wrap{
+				span{
+					font-size:30px;
+					display: block;
+				}
+			}
+		}
+		.select-time{
+			position:absolute;
+			top:10px;
+			right:10px;
+			font-size:12px;
+			span{
+				border:1px solid gray;
+				border-radius: 10px;
+				padding:2px 10px;
+			}
+		}
+	}
+	.mui-content{
+		flex:1;
+		overflow: hidden;
+		padding-bottom:50px;
+		display: flex;
+		flex-direction: column;
+		.con-title{
+			width:100%;
+			height: 44px;
+			background: #fff;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding:0 10px;
+			font-size:12px;
+			
+		}
+		.con-wrap{
+			width:100%;
+			flex:1;
+			overflow: hidden;
+		}
+	}
+}
+
+.tab-list{
+	border:1px solid gray;
+	border-radius: 10px;
+	overflow: hidden;
+	span{
+		padding:10px;
+		&.active{
+			background: yellow;
+		}
+	}
+}
+
+.bill-wrap{
+	width:100%;
+	height: 100%;
+	position:relative;
+}
+
+.day-title{
+	width:100%;
+	height: 44px;
+	line-height: 44px;
+	display: flex;
+	justify-content: space-between;
+	padding:0 10px;
+	background: #fff;
+	font-size:12px;
+	color:gray;
+	.mui-icon{
+		font-size:14px;
+	}
+}
+
+.mui-slider-handle{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	dl{
+		display: flex;
+		align-items: center;
+		margin:0;
+		dt{
+			width:40px;
+			height: 40px;
+			background: yellow;
+			border-radius: 50%;
+			font-size:18px;
+			text-align: center;
+			line-height: 40px;
+		}
+		dd{
+			font-size:14px;
+			margin-left:10px;
+		}
+	}
+	
+}
+
+.m-title{
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+	padding:0;
+	font-size:12px;
+	width:90%;
+	li:nth-child(1){
+		span{
+			display: inline-block;
+			&.mui-icon{
+				font-size:14px;
+			}
+		}
+	}
+	span{
+		display: block;
+		text-align: center;
+	}
+}
+
+.mui-table-view-cell.mui-collapse .mui-table-view{
+	margin-top:0;
+}
+
+.mui-table-view-cell.mui-collapse .mui-table-view .mui-table-view-cell{
+	padding-left:15px;
+}
+
+
+//侧边菜单
+
+.aside{
+	background: #fff;
+	padding:10px;
+	h1{
+		font-size:18px;
+		border-left:2px solid yellow;
+		padding-left:10px;
+	}
+	ul{
+		width:100%;
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom:10px;
+		li{
+			border:1px solid gray;
+			color:gray;
+			font-size:12px;
+			border-radius: 10px;
+			margin-right:10px;
+			margin-top:10px;
+			padding:2px 6px;
+		}
+	}
+}
+
+.go-bill{
+	width:80px;
+	height: 80px;
+	box-shadow: 0 0 4px #000;
+	position: absolute;
+	bottom:50px;
+	left:50%;
+	margin-left:-40px;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 50%;
+	z-index:99;
+	.mui-icon{
+		font-size:80px;
+	}
+}
+
