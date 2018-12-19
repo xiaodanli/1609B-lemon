@@ -128,6 +128,8 @@
       margin-right: 10px;
       margin-top: 10px;
       padding: 2px 6px; }
+      .aside ul li.active {
+        border-color: yellow; }
 
 .go-bill {
   width: 80px;

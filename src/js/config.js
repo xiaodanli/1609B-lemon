@@ -6,6 +6,7 @@ require.config({
 		'poppicker':'./libs/mui.poppicker',
 		'dtpicker':'./libs/mui.dtpicker',
 		'echarts':'./libs/echarts.min',
+		'moment':'./libs/moment.min',
 		
 		'dom':'./common/dom',
 		'getUid':'./common/get-uid',
