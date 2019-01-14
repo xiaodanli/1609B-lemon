@@ -1,8 +1,5 @@
 require(['./js/config.js'], function() {
 	require(['mui', 'dom', 'echarts','getUid', 'moment','picker', 'poppicker', 'dtpicker'], function(mui, dom, echarts,getUid,moment) {
-
-
-
 		function init() {
 			mui.init();
 
@@ -26,7 +23,7 @@ require(['./js/config.js'], function() {
 			loadBill();
 			
 			//查询分类
-			loadClassify()
+			loadClassify();
 
 		}
 		
@@ -77,8 +74,6 @@ require(['./js/config.js'], function() {
 			var time_type = status === 'month' ? 2 : 1,
 				timer = _selectDate.innerHTML,
 				classify = classify || '';
-				
-			
 				
 			getUid(function(uid){
 				mui.ajax('/bill/api/getBill',{
@@ -383,6 +378,10 @@ require(['./js/config.js'], function() {
 				type: 'month'
 			});
 
+			console.log(curMonth)
+			if(curMonth < 10){
+				curMonth = '0'+curMonth;
+			}
 			_selectDate.innerHTML = curYear + '-' + curMonth;
 
 		}

@@ -47,7 +47,7 @@ require(['../js/config.js'],function(){
 		}
 		
 		var type="支出",
-				targetObj = {};  //格式化分类
+			targetObj = {};  //格式化分类
 		//渲染分类
 		function renderClassify(data){
 			  
@@ -217,7 +217,7 @@ require(['../js/config.js'],function(){
 			//点击分类
 			mui('.mui-slider').on('tap','dl',function(){
 				var text = this.className;
-				if(text === 'custom'){
+				if(text.indexOf('custom') != -1){
 					location.href="../../page/add-classify.html?type="+type;
 				}
 			})
